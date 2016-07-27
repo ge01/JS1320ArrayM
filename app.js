@@ -37,3 +37,9 @@ var myBoys = ["Emil", "Tobias", "Linus"];
 var myChildren = myGirls.concat(myBoys);
 
 document.getElementById("two-arrays").innerHTML = myChildren;
+
+/****************************************************
+*                 Slicing an Array                  *
+****************************************************/
+var citrus = fruits.slice(1,3);
+document.getElementById("slice").innerHTML = fruits + "<br>" + citrus;
