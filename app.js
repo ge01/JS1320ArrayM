@@ -18,3 +18,22 @@ function spliceFunction() {
   fruits.splice(2, 0, "Lemon", "Kiwi");
   document.getElementById("splice-array").innerHTML = fruits;
 }
+
+/****************************************************
+*          Using splice() to Remove Elements        *
+****************************************************/
+document.getElementById("splice-array1").innerHTML = fruits;
+
+function spliceFunction1() {
+  fruits.splice(0,1);
+  document.getElementById("splice-array1").innerHTML = fruits;
+}
+
+/****************************************************
+*                   Joining Arrays                  *
+****************************************************/
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
+
+document.getElementById("two-arrays").innerHTML = myChildren;
